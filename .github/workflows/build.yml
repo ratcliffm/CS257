@@ -1,0 +1,12 @@
+name: make
+on: pull_request
+jobs:
+  test:
+    name: Run make
+    runs-on: ubuntu-latest
+    container: defreez/cs367github
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: make
+      run: make
