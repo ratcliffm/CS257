@@ -1,2 +1,2 @@
-# CS257
-CS 257 - C++ 
+# Image Convolution
+Image Convolution - C++
